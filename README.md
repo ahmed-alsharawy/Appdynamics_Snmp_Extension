@@ -29,10 +29,11 @@ This is a custom SNMP Metrics Extension for the AppDynamics Machine Agent. It co
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/snmp-metrics-extension.git
-   cd snmp-metrics-extension
 
-   cp -r snmp-metrics-extension /opt/appdynamics/machine-agent/monitors/
+   change name  to snmp-extension 
+   cd snmp-extension
+
+   cp -r snmp-extension /opt/appdynamics/machine-agent/monitors/
 
    chmod +x src/snmp-metrics.sh
 
